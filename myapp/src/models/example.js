@@ -22,7 +22,7 @@ export default {
   },
 
   reducers: {
-    add(state) {
+    add(state, action) {
       const newCurrent = state.current + 1;
 
       if(newCurrent > state.record ){

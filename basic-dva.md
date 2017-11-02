@@ -89,4 +89,23 @@ Component
 
 Router 
 --
-we can use router and dynamic import and link Component and Model 
+We can use router and dynamic import and link Component and Model
+```jsx harmony
+    const Users = dynamic({
+    app,
+    models: () => [
+      import('./models/users'),
+    ],
+    component: () => import('./routes/Users'),
+  });
+``` 
+insert Top Menu in router 
+```jsx harmony
+   <ConnectedRouter history={history}>
+     <App>
+      <Switch>
+        
+      </Switch>
+    </App>
+    </ConnectedRouter>
+```

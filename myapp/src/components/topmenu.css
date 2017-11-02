@@ -1,0 +1,13 @@
+.item{
+   list-style: none;
+   display: inline-block;
+   cursor: pointer;
+   font-size: 20px;
+   margin-right: 20px;
+   background-color: #f7f7f7;
+   color: black;
+   border-radius: 2px;
+   border: 1px solid slategray;
+   text-decoration: none;
+   padding: 10px;
+}
